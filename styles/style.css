@@ -180,9 +180,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
 }
@@ -216,6 +216,9 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+  }
+  .ingredients .col-md {
+    align-items: center;
   }
 }
 /*!
