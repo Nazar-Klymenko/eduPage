@@ -19,6 +19,11 @@
     margin-right: auto;
     margin-left: auto;
   }
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .step {
     display: flex;
     flex-direction: row;
@@ -43,11 +48,6 @@
     }
     .header {
       text-align: center;
-    }
-    .steps-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
   }
 }
