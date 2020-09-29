@@ -1,0 +1,17 @@
+@import "./custom";
+@import "./hb-soap";
+@import "./second-section";
+@import "./third_section";
+@import "./fourth-section";
+@import "./fifth-section";
+@import "./blog";
+@import "./ingredients";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.custom-black {
+  color: $Black;
+}

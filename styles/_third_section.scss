@@ -1,0 +1,24 @@
+.third-section {
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  background-color: $LightPink;
+  .image-container {
+    min-height: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .third-section {
+    flex-direction: column-reverse;
+    p {
+      text-align: center;
+    }
+  }
+}

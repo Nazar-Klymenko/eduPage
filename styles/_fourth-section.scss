@@ -1,0 +1,53 @@
+.fourth-section {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+
+  .image-container {
+    position: relative;
+    filter: sepia(20%);
+  }
+
+  .video-placeholder {
+    width: 100%;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .description {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .step {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+  }
+  .step-info {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .fourth-section {
+    .row {
+      flex-direction: column;
+    }
+    .description {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .header {
+      text-align: center;
+    }
+    .steps-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
