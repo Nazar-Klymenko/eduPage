@@ -1,0 +1,20 @@
+.banner-section {
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  background-color: $LightPink;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @include media-breakpoint-down(lg) {
+    flex-direction: column-reverse;
+    p {
+      text-align: center;
+    }
+  }
+}
