@@ -1,0 +1,33 @@
+.blog-section {
+  margin-bottom: 7rem;
+  .blogposts-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  img {
+    margin-bottom: 2rem;
+    width: 90%;
+    height: auto;
+  }
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  a {
+    text-decoration: none;
+    color: $black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background: $NormalPink;
+    border: none;
+    padding: 12px 55px;
+  }
+}
