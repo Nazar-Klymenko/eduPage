@@ -1,17 +1,24 @@
-@import "./custom";
-@import "./hb-soap";
-@import "./second-section";
-@import "./third_section";
-@import "./fourth-section";
-@import "./fifth-section";
-@import "./blog";
-@import "./ingredients";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./custom";
+@import "./hero-block";
+@import "./explanation-section";
+@import "./banner-section";
+@import "./instructions-section";
+@import "./ingredient-combination-section";
+@import "./blog-section";
+@import "./ingredients-section";
 
-.body {
-  font-family: "Open Sans", sans-serif !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $Black;
 }
 
-.custom-black {
-  color: $Black;
+h1,
+h2,
+h3 {
+  font-weight: 700;
 }
