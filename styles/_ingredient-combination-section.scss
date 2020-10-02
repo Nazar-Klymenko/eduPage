@@ -1,0 +1,28 @@
+.ingredient-combination-section {
+  margin-bottom: 7rem;
+  h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col-md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: auto;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+  }
+}

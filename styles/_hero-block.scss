@@ -1,0 +1,32 @@
+.hero-block {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  .description-col {
+    padding-left: 7rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image-container {
+    height: 100%;
+    padding: 0px !important;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  @include media-breakpoint-down(lg) {
+    .row {
+      flex-direction: column;
+    }
+    .description-col {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+  }
+}
